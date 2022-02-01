@@ -1,0 +1,6 @@
+npm install
+
+npm run test
+
+allure generate allure-results --clean
+allure open

@@ -1,0 +1,20 @@
+{
+  "name": "module-13-mobile",
+  "version": "1.0.0",
+  "description": "APPIUM CHROME",
+  "main": "index.js",
+  "scripts": {
+    "test:desktop": "protractor protractor.conf.desktop.js",
+    "test:mobile": "protractor protractor.conf.mobile.js"
+  },
+  "author": "Hanna Ivanova",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^9.2.0"
+  },
+
+  "devDependencies": {
+    "jasmine-spec-reporter": "^7.0.0"   
+  }
+}
